@@ -27,7 +27,7 @@ HELP_MESSAGE = """Hey there! My name is {firstname} and I'm a link convertor and
 
 I have a ton of handy features to help you out, such as:
 
-- [Hyperlink](https://t.me/{username}) support 🔗
+- [FlashshortX](https://t.me/FlashshortX}) support 🔗
 - Button conversion support 🔘
 - Domain inclusion and exclusion options 🌐
 - Header and footer text support 📝
@@ -50,9 +50,9 @@ ABOUT_TEXT = """
     
 `📝 Language:` [Python 3](https://www.python.org/)
 `🧰 Framework:` [Pyrogram](https://github.com/pyrogram/pyrogram)
-`👨‍💻 Developer:` [Dev](https://t.me/Don_vijay)
+`👨‍💻 Developer:` [Dev](https://t.me/FlashshortX)
 `📢 Support:` [Talk Bot](https://t.me/FlashshortX)
-`🌐 Master:` [Master](https://t.me/Arisu_0007)
+`🌐 Master:` [Master](https://t.me/FlashshortX)
 """
 
 
