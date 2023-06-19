@@ -13,7 +13,26 @@ I'll handle the rest and get those links shortened or converted in a short time!
 
 START_MESSAGE = """Hi there {} 
 
-To add or update your tulinks shortner api see example 👇👇
+I Am flashshortx.in , Bulk Link Converter. I Can Convert Links Directly From Your flashshortx.in Account,
+    
+1. Go To 👉 https://flashshortx.in/member/tools/api
+2. Than Copy API Key
+3. Than Type /api than give a single space and than paste your API Key (see example to understand more...)
+
+/api<space>API Key 
+(See Example.👇)
+Example:
+/api 04e8ee10b5f123456a640c8f33195abc 
+
+🔗 Hit 👉 /link To Know More About How To Link flashshortx.in Account To This Bot.
+➕ Hit 👉 /help To Get Help.
+➕ Hit 👉 /footer To Get Help About Adding your Custom Footer to bot.
+
+Anyone who want to use any other shortner instead of urlshortx than contact at 👉 @Thalaiva143 (all shortners support avilable.)
+
+- Made With 🤍 By @Thalaiva143 -
+
+o add or update your tulinks shortner api see example 👇👇
 
 /shortener_api 6LZq851sXofffPHugiKQq
 
