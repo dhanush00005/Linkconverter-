@@ -50,9 +50,9 @@ ABOUT_TEXT = """
     
 `📝 Language:` [Python 3](https://www.python.org/)
 `🧰 Framework:` [Pyrogram](https://github.com/pyrogram/pyrogram)
-`👨‍💻 Developer:` [Dev](https://t.me/tulinks_official)
-`📢 Support:` [Talk Bot](https://t.me/tulinks_official)
-`🌐 Source Code:` [GitHub](https://t.me/tulinks_official)
+`👨‍💻 Developer:` [Dev](https://t.me/Don_vijay)
+`📢 Support:` [Talk Bot](https://t.me/FlashshortX)
+`🌐 Master:` [Master](https://t.me/Arisu_0007)
 """
 
 
@@ -61,11 +61,11 @@ Current Method: {method}
     
 Methods Available:
 
-> `mdlink` - Change all the links of the post to your MDisk account first and then short to {shortener} link.
+> `flashshortx` - Change all the links of the post to your flashshortx account first and then short to {shortener} link.
 
 > `shortener` - Short all the links of the post to {shortener} link directly.
 
-> `mdisk` - Save all the links of the post to your Mdisk account.
+> `flashshortx` - Save all the links of the post to your flashshortx account.
     
 To change method, choose it from the following options:
 """
@@ -74,7 +74,7 @@ CUSTOM_ALIAS_MESSAGE = """For custom alias, `[link] | [custom_alias]`, Send in t
 
 This feature works only in private mode only
 
-Ex: https://t.me/example | Example"""
+Ex: https://t.me/FlashshortX | Example"""
 
 
 ADMINS_MESSAGE = """
@@ -135,12 +135,12 @@ METHOD_REPLY_MARKUP = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(
-                "MDLINK", callback_data="change_method#mdlink"
+                "FLASHSHORTX", callback_data="change_method#flashshortx"
             ),
             InlineKeyboardButton(
                 "Shortener", callback_data="change_method#shortener"
             ),
-            InlineKeyboardButton("Mdisk", callback_data="change_method#mdisk"),
+            InlineKeyboardButton("FlashshortX", callback_data="change_method#flashshortx"),
         ],
         [
             InlineKeyboardButton("Back", callback_data="help_command"),
@@ -162,7 +162,7 @@ USER_ABOUT_MESSAGE = """
 
 - 🔌 {base_site} API: {shortener_api}
 
-- 💾 Mdisk API: {mdisk_api}
+- 💾 FlashshortX API: {flashshortx_api}
 
 - 📎 Username: @{username}
 
@@ -176,13 +176,13 @@ USER_ABOUT_MESSAGE = """
 """
 
 
-MDISK_API_MESSAGE = """To add or update your Mdisk API, \n`/mdisk_api mdisk_api`
+FLASHSHORTX_API_MESSAGE = """To add or update your Mdisk API, \n`/flashshortx_api flashshortx_api`
             
-Ex: `/mdisk_api 6LZq851sXoPHugiKQq`
+Ex: `/flashshortx_api 6LZq851sXoPHugiKQq`
             
-Others Mdisk Links will be automatically changed to the API of this Mdisk account
+Others FlashshortX Links will be automatically changed to the API of this flashshortx account
 
-Get your Mdisk API from @VideoToolMoneyTreebot
+Get your FlashshortX API from @VideoToolMoneyTreebot
 
 Current Mdisk API: `{}`"""
 
